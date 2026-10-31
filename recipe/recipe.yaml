@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "12.2.2"
+  version: "13.0"
 
 package:
   name: pyobjc-framework-avfoundation
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyobjc-framework-AVFoundation/pyobjc_framework_avfoundation-${{ version }}.tar.gz
-  sha256: 5b9f33bf382af9a84b2394c98e3603a8abf03f29b0d2036e29698806ea22851a
+  sha256: 1b41ae09c8a66d7a7d18566983a97bf754bc07084334dd63b70540777c2ee847
 
 build:
-  number: 2
+  number: 0
   skip: not osx
   script:
     content:
